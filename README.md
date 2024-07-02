@@ -61,14 +61,13 @@ Keepham은 공유 오피스를 위한 혁신적인 IoT 기반 공유 배달함 �
 
 ## 시스템 아키텍처
 
-[시스템 아키텍처 다이어그램 이미지](./image/ERD.png)
-네, 물론입니다. 이 ERD를 README에 추가하는 것은 좋은 아이디어입니다. ERD는 프로젝트의 데이터 구조를 시각적으로 보여주는 중요한 요소입니다. README에 다음과 같이 ERD 섹션을 추가할 수 있습니다:
+[시스템 아키텍처 다이어그램 이미지]
 
 ## 데이터베이스 설계 (ERD)
 
 프로젝트의 데이터베이스 구조를 나타내는 Entity-Relationship Diagram(ERD)입니다:
 
-![Keepham ERD](path_to_erd_image.png)
+![Keepham ERD](./image/ERD.png)
 
 주요 엔티티:
 - box: 배달함 정보
