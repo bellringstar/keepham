@@ -53,7 +53,6 @@ public class ChatRoomManager {
     private final BoxRepository boxRepository;
 
 
-
     public boolean isPasswordCorrect(Long roomId, String password){
         var room = chatRoomRepository.findFirstByIdAndStatus(roomId, ChatRoomStatus.OPEN);
         log.info("room password : {}", room.getPassword());
